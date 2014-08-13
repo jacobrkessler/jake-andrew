@@ -1,0 +1,30 @@
+body {
+	background-color: #DAD5E3;
+}
+
+ul {
+	list-style-type: none;
+	color: white; 
+	list-style-type: none;
+}
+
+li {
+	font-family: Arial, sans-serif;
+}
+
+.headlines {
+	color: #290D5C;
+	text-align: center;
+	font-family: monospace, sans-serif;
+	font-size: 20px;
+}
+
+/*this will float the image to the left*/
+#grenade {
+	float: left;
+}
+
+/* removes underline */
+a {
+text-decoration: none;
+}
