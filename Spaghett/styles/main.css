@@ -1,0 +1,33 @@
+body {
+	background-color: #DDD;
+	padding: 2em;
+	font-family: Arial, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.cold-seasons {
+	color: blue;
+}
+
+.warm-seasons {
+	color: orange;
+}
+
+#front-page-image {
+padding: 10px;
+margin-right: 50px;
+background-color: grey;
+float: left;
+width: 20%;
+
+}
+
+#main-content {
+	float: right;
+	background-color: white;
+	width: 60%;
+	background-image: url(http://fineartamerica.com/images-medium/1-dr-steve-brule-fay-helfer.jpg);
+}
