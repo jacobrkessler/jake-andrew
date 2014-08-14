@@ -3,55 +3,55 @@
 <head>
 	<title>Forms</title>
 </head>
+
 <body>
 	<form action="http://www.example.com/review.php" method="get">
 		<fieldset>
-				<legend>
-					Your Details:
-				</legend>
-				<legend>
-				<label>
-					Name:
-					<input type="text" name="name" size="30" maxlength="100">
-				</label>
-				<br />
-				<label>
-					Email:
-					<input type="email" name="email" size="30" maxlength="100">
-				</label>
-				<br />
-			<fieldset>
+			<legend>Your Details:</legend>
+			<legend>
+			<label>
+				Name:
+				<input type="text" name="name" size="30" maxlength="100">
+			</label>
 			<br />
-			</fieldset>
-				<legend>
+			<label>
+				Email:
+				<input type="email" name="email" size="30" maxlength="100">
+			</label>
+			<br />
+		<fieldset>
+		<br />
+		</fieldset>
+			<legend>
 					Your Review:
-				</legend>
-				<p>
-					<label for="hear-about">
+			</legend>
+			<p>
+				<label for="hear-about">
 						How did you hear about us?
-					</label>
-					<select name="referrer" id="hear-about">
-						<option value="google">Google</option>
-						<option value="friend">Friend</option>
-						<option value="advert">Advert</option>
-						<option value="other">Other</option>
-						</select>
+				</label>
+				<select name="referrer" id="hear-about">
+					<option value="google">Google</option>
+					<option value="friend">Friend</option>
+					<option value="advert">Advert</option>
+					<option value="other">Other</option>
+				</select>
+			</p>
+			<p>
+				Would you visit again?
+				<b />
+				<label>
+					<input type="radio" name="rating" value="yes" />
+					Yes
+				</label>
+				<label>
+					<input type="radio" name="rating" value="no" />
+					No
+				</label>
+				<label>
+					<input type="radio" name="rating" value="maybe" />
+					Maybe
+				</label>
 				</p>
-				<p>
-					Would you visit again?
-					<b />
-					<label>
-						<input type="radio" name="rating" value="yes" />
-						Yes
-					</label>
-					<label>
-						<input type="radio" name="rating" value="no" />
-						No
-					</label>
-					<label>
-						<input type="radio" name="rating" value="maybe" />
-						Maybe
-					</label>
 				<p>
 					<label for="comments">
 						Commetnts				
@@ -66,7 +66,7 @@
 				</label>
 				<br />
 				<input type="submit" value="Submit review" />
-		</fieldset>
-	</form>
+			</fieldset>
+		</form>
 	</body>
 </html>
