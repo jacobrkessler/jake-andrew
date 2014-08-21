@@ -11,7 +11,7 @@
 
 body {
 	color: #ffffff;
-	background: #8A7000 url("images/bg.jpg");
+	background: #D3D2D6 url("images/bg.jpg");
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 90%;
 	margin: 0px;
@@ -26,6 +26,7 @@ a {
 a:hover {
 	color: #ffffff;
 }
+
 
 .header {
 	background-image: url("images/bg-header.jpg");
@@ -80,9 +81,7 @@ h1 {
 	line-height: 1.4em;
 }
 
-.tagline {
-	color: white;
-}
+
 
 .main-story {
 	background-image: url("images/main_image.jpg");
