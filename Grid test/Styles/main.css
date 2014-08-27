@@ -1,18 +1,9 @@
-@font-face {
-	font-family: 'QuicksandBook';
-	src: url('fonts/Quicksand_Book-webfont.eot');
-	src: url('fonts/Quicksand_Book-webfont.eot?#iefix'); format('embedded-opentype'), 
-		url('fonts/Quicksand_Book-webfont.woff') format('woff'),
-		url('fonts/Quicksand_Book-webfont.ttf') format('truetype'),
-		url('fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+
 
 body {
 	color: #ffffff;
 	background: #333333 url("images/bg.jpg");
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'Open Sans', sans-serif;	
 	font-size: 90%;
 	margin: 0px;
 	text-align: center;
@@ -40,7 +31,6 @@ a:hover {
 
 .nav {
 	float: right;
-	font-family: QuicksandBook, Helvetica, Arial, sans-serif;
 	padding: 10px 0px 0px 0px;
 	text-align: right;
 }
@@ -59,7 +49,7 @@ a:hover {
 }
 
 h1, h2 {
-	font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: normal;
 	text-transform: uppercase;
 }
@@ -70,7 +60,6 @@ h1 {
 }
 
 .date {
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 75%;
 	color: #FFD452;
 }
@@ -117,7 +106,6 @@ h1 {
 }
 
 .footer p {
-	font-family: Helvetica, Arial, sans-serif;
 	font-size: 75%;
 	text-align: right;
 }
